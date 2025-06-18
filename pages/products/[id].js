@@ -37,12 +37,12 @@ export default function ProductDetail({product}){
                 <Image src={product.thumbnail} width={300} height={300} alt={product.title}/>
             </div>
             <div className={styles.detail}>
-            <h1>ชื่อสินค้า : {product.title}</h1>
-            <h2>ราคา : {product.price}</h2>
-            <h2>หมวดหมู่ : {product.category}</h2>
-            <h3>แบรนด์ : {product.brand}</h3>
-            <h4>ข้อมูลพื้นฐาน : {product.description}</h4>
-            <h4>เรตติ้ง: {product.rating}</h4>
+                <h1>ชื่อสินค้า : {product.title}</h1>
+                <h2>ราคา : {product.price}</h2>
+                <h2>หมวดหมู่ : {product.category}</h2>
+                <h3>แบรนด์ : {product.brand}</h3>
+                <h4>ข้อมูลพื้นฐาน : {product.description}</h4>
+                <h4>เรตติ้ง: {product.rating}</h4>
             </div>
         </div>
 
